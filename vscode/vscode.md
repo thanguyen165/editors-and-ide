@@ -14,19 +14,19 @@ Check VS Code official website [here](https://code.visualstudio.com/).
 
 ## 2. Install VS CODE <a name="Install_VS_CODE"></a>
 Run this command:
-```
+```console
 sudo apt-get install code
 ```
 Or just download from [VS Code official website](https://code.visualstudio.com/).
 ## 3. Start VS Code: <a name="Start_VS_Code"></a>
 * In Linux:
 Open terminal and do:
-```
+```console
 code hello.py
 ```
 * In Windows:
 Open Powershell and do:
-```
+```console
 code hello.py
 ```
 * Or just open it with GUI.
@@ -49,24 +49,24 @@ See [VS Code shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcu
 ## 6. Install [GNU-GCC](https://gcc.gnu.org/) for C/C++ <a name="Install_GNU_GCC"></a>
 ### 6.1 Install GNU-GCC
 Run these commands, one by one:
-```
+```console
 sudo apt update
 ```
-```
+```console
 sudo apt install build-essential
 ```
 You might want to see [what is the difference between apt and apt-get](https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get).
 
 ### 6.2 Verify installation
 Verify that the GCC compiler is successfully installed by running the following command that prints the GCC version:
-```
+```console
 gcc --version
 ```
 ### 6.3 Hello World program
-```
+```console
 code helloWorld.c
 ```
-```
+```c
 #include<stdio.h>
 
 int main() {
@@ -75,38 +75,38 @@ int main() {
 }
 ```
 Save the file and compile it into an executable:
-```
+```console
 gcc hello.c -o hello
 ```
 **Note**: Compile ```C``` files with ```gcc```, and ```C++``` files with ```g++```. \
 Execute that file with:
-```
+```console
 ./hello
 ```
 ## 7. Install [Python](https://www.python.org/downloads/) <a name="Install_Python"></a>
 ### 7.1 Install Python
 Run these commands, one by one:
-```
+```console
 sudo apt update
 ```
-```
+```console
 sudo apt-get install python3.6
 ```
 You might want to see [what is the difference between apt and apt-get](https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get).
 
 ### 7.2 Verify installation
 Verify that Python is successfully installed by running the following command that prints the Python version:
-```
+```console
 python --version
 ```
 ### 7.3 Hello World program
-```
+```console
 code helloWorld.py
 ```
-```
+```python
 print("Hello World")
 ```
 Save the file and Execute that file with:
-```
+```console
 python helloWorld.py
 ```
