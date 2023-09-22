@@ -9,16 +9,20 @@
 7. [Install Python](#Install_Python)
 
 ## 1. What is VISUAL STUDIO CODE? <a name="What_is_VSCODE?"></a>
+
 Visual Studio Code (VS Code) is one of the most popular **text editor**, allows us to work with a lot of language. **VS CODE IS NOT AN IDE**.\
 Check VS Code official website [here](https://code.visualstudio.com/).
 
 ## 2. Install VS CODE <a name="Install_VS_CODE"></a>
+
 Run this command:
 ```console
 sudo apt-get install code
 ```
 Or just download from [VS Code official website](https://code.visualstudio.com/).
+
 ## 3. Start VS Code: <a name="Start_VS_Code"></a>
+
 * In Linux:
 Open terminal and do:
 ```console
@@ -32,6 +36,7 @@ code hello.py
 * Or just open it with GUI.
 
 ## 4. Install extensions <a name="Install_extensions"></a>
+
 I suggest these extensions:
 1. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) (by Jun Han).
 2. [Bracket Pair Colorization Toggler](https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler) (by Dzhavat Ushev) to colorise the respective brackets.
@@ -44,6 +49,7 @@ You don't have to reload page to see updates. Just save html files and the page 
 Check [here](https://x-team.com/blog/best-vscode-extensions/) for more suggestions.
 
 ## 5. Shortcuts for VS Code <a name="Shortcuts_for_VS_Code"></a>
+
 See [VS Code shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 ## 6. Install [GNU-GCC](https://gcc.gnu.org/) for C/C++ <a name="Install_GNU_GCC"></a>
